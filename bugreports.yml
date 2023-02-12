@@ -1,5 +1,6 @@
 ---
-- summ реализован фильтр по размеру
+- summary: |
+    Не реализован фильтр по размеру
   environment: |
     Google Chrome 109.0.5414.120 (Официальная сборка), (64 бит)
     Windows 10 Pro 21H2
@@ -79,7 +80,7 @@
   environment: |
     Google Chrome 109.0.5414.120 (Официальная сборка), (64 бит)
     Windows 10 Pro 21H2
-  steps
+  steps-to-reproduce: |
     Убрать флажок "В наличии"
   expected-result: |
     Отображение всех товаров.
